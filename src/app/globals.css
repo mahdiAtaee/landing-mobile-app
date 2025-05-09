@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+
+body {
+  font-family: 'General Sans', sans-serif;
+  width: 100dvw;
+  background-color: #dfdff0;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .floating-nav {
+    border: 1px solid #000;
+    border-radius: 15px;
+    background: #000;
+  }
+
+  .nav-hover-btn {
+    @apply relative md:ms-10 text-xs uppercase text-blue-50 after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-white cursor-pointer;
+  }
+
+  .hero-bg {
+    background: #4a0980;
+    background: linear-gradient(356deg, rgba(74, 9, 128, 1) 0%, rgba(23, 109, 179, 1) 35%, rgba(12, 73, 204, 1) 75%, rgba(0, 31, 156, 0) 100%);
+  }
+
+  .animated-title {
+    @apply flex flex-col gap-1 text-4xl md:text-7xl uppercase leading-[.8] text-white sm:px-32 md:text-[6rem];
+  }
+
+  .animated-word {
+    @apply font-black opacity-0;
+    transform: translate3d(10px, 51px, -60px) rotateY(60deg) rotateX(-40deg);
+    transform-origin: 50% 50% -150px !important;
+    will-change: opacity, transform;
+  }
+
+}
