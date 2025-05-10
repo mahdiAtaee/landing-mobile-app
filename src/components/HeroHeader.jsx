@@ -17,7 +17,7 @@ const HeroHeader = () => {
     return (
         <div className='h-dvh w-screen bg-black relative bg-gradient-to-br from-[#0f172a] via-[#1e293b] via-[#013764] to-[#7400a1] overflow-hidden'>
             <div className='w-screen h-screen text-center flex items-start justify-center pt-25'>
-                <p className={`text-blue-50 h-max text-4xl md:text-9xl ${audiowide.className}`}>
+                <p className={`text-blue-50 h-max text-4xl md:text-6xl lg:text-9xl ${audiowide.className}`}>
                     Boost Your <br />
                     Productivity <br />
                     with Problukitify

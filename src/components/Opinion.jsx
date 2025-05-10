@@ -15,7 +15,7 @@ const Opinion = () => {
     return (
         <div className='w-screen min-h-dvh overflow-hidden relative bg-black'>
             <div className='w-screen flex items-center justify-center pt-20 text-center my-8'>
-                <AnimatedTitle title="Hear From Our <br /> Community <br /> Testimonials" ContainerClass="mt-5 !text-center !text-blue-50" />
+                <AnimatedTitle title="Hear From Our <br /> Community <br /> Testimonials" ContainerClass="mt-5 !text-3xl md:!text-4xl lg:!text-7xl !text-center !text-blue-50" />
             </div>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}

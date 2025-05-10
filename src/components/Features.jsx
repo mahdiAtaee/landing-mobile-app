@@ -21,7 +21,7 @@ const Features = () => {
                     sizes="(max-width: 486px) 280px, 1000px"
                 />
             </div>
-            <div className='w-screen flex items-center justify-around text-blue-50 m-0 md:mx-10 px-8 pt-56'>
+            <div className='w-screen flex items-center justify-around text-blue-50 m-0 lg:mx-10 px-8 pt-56'>
                 <div className='hidden md:flex flex-col text-xs md:text-xl'>
                     <span>Be Stronger.</span>
                     <span>Be PowerFull.</span>
