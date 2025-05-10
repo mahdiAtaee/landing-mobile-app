@@ -3,6 +3,7 @@ import { FaApple } from 'react-icons/fa6'
 import { Tomorrow } from 'next/font/google'
 
 const font = Tomorrow({
+    subsets: ['latin', 'latin-ext'],
     weight: ['900', '800', '700']
 })
 

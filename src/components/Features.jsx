@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Tomorrow } from 'next/font/google'
 
 const font = Tomorrow({
+    subsets: ['latin', 'latin-ext'],
     weight: ['900', '800', '700']
 })
 
