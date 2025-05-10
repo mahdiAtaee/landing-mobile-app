@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <div className='w-screen min-h-dvh overflow-x-hidden'>
             <div className='w-screen flex items-center justify-center pt-20 text-center'>
-                <AnimatedTitle title="What we work <br /> Our <br /> Services" ContainerClass="mt-5 text-xl !text-center !text-black" />
+                <AnimatedTitle title="What we work <br /> Our <br /> Services" ContainerClass="mt-5 !text-3xl md:!text-4xl lg:!text-7xl !text-center !text-black" />
             </div>
             <div className='w-[90%] h-1/2 lg:w-7xl mx-auto my-5 rounded-2xl bg-amber-50 flex flex-col p-4 lg:flex-row items-center justify-around'>
                 <Image src="/images/service-1.png" width={800} height={800} alt='mobile' />
